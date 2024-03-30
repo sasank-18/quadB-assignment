@@ -1,0 +1,149 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+
+
+.flex-div{
+  display: flex;
+  align-items: center;
+}
+
+.h1 h1{
+  font-family: '';
+  font-weight: 500;
+  font-size: 30px;
+  color: #060047;
+  padding: 4px 10px;
+  box-sizing: border-box;
+  transition: 0.3s ease-in-out;
+}
+ .h1 h1:hover{
+  font-family: 'Bebas Neue';
+  font-weight: 500;
+  font-size: 32px;
+  color: #060047;
+
+}
+
+
+nav{
+  height:70px;
+   padding :16px 80px;
+   justify-content: space-between;
+   background: #f9d140;
+   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+   position: sticky;
+   top: 0;
+   z-index: 1;
+}
+
+.footer{
+  margin-top: 45vh;
+text-align: center;
+
+ 
+  
+}
+
+.main_note{
+ 
+  
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input{
+  margin-top: 40px;
+  height: 30px;
+  background: #fef3cc;
+  color: #0600479a;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  outline: none;
+ padding: 25px 25px 20px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+textarea{
+  height: 160px;
+  background:#fffae7;
+  color: #06022e85;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  outline: none;
+  padding:15px 25px;
+  border: none;
+  font-size: 14px;
+  font-weight: 200;
+  resize: none;
+ 
+}
+
+ .button{
+  bottom: 3rem;
+  color: #f9d140;
+  
+}
+
+form .button:hover{
+ background-color:#f9d140;
+ color: white;
+
+}
+/* .main-div{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: auto;
+  
+ } */
+
+.note{
+
+ height: auto;
+  min-width: 12% ;
+  max-width: min-content;
+  margin: 0px 30px 30px;
+  padding: 8px 8px 8px 10px;
+  float:left;
+  border-radius: 5px;
+  background-color: #fffae7;
+  line-break: anywhere;
+}
+
+h3{
+  padding-bottom: 8px;
+}
+
+.main-div .note .deleteIcon{
+  
+  margin-top: 8px;
+  margin-left: 128px;
+  cursor: pointer;
+  color: #545454;
+  font-size: 20px;
+}
+.main-div .note .deleteIcon:hover{
+   
+  color: red;
+ 
+  }
+
+
